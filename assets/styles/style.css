@@ -45,7 +45,7 @@ article
 article div
 {
     position: relative;
-    height: 100%;
+    height: 100%    ;
     overflow: hidden;
 }
 
@@ -65,4 +65,13 @@ footer
     gap: 20px;
     padding: 0 40px;
     padding-bottom: 50px;
+}
+
+button
+{
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }

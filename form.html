@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="assets/styles/style2.css">
+</head>
+<body>
+    <h1>Adopta Formulario</h1>
+    <form action="index.html">
+
+        <h2>Personal Data</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+
+        <label for="lastname">Lastname:</label>
+        <input type="text" id="lastname">
+
+        <label for="adress">Adress:</label>
+        <input type="text" id="adress">
+
+        <label for="city">City:</label>
+        <input type="text" id="city">
+
+
+        <label for="postal_code">Postal Code:</label>
+        <input type="number" id="postal_code">
+
+
+        <label for="phone">Phone:</label>
+        <input type="number" id="phone">
+
+        <label for="have_pet">Tienes alguna mascota actualmente:</label>
+        <div>
+            <input type="radio" id="have_pet" name="have_pet">Yes
+            <input type="radio" id="have_pet" name="have_pet">No
+        </div>
+
+
+        <label for="n_pet">Cuantas?:</label>
+        <input type="number" id="n_pet">
+
+        <h2>Pet Data</h2>
+
+        <label for="name_pet">Pet Name:</label>
+        <input type="text" id="name_pet">
+
+        <label for="select">Select your pet</label>
+        <select id="select">
+            <option>Frijolito</option>
+            <option>Luna</option>
+            <option>Rocky</option>
+            <option>Chia</option>
+            <option>Kiki</option>
+        </select>
+        <label for="vacune">Vaccinated:</label>
+        <div>
+            <input type="radio" id="vacune" name="vacune">Yes
+            <input type="radio" id="vacune" name="vacune">No
+        </div>
+        <label for="sterilized">Sterilized:</label>
+        <div>
+            <input type="radio" id="sterilized" name="sterilized">Yes
+            <input type="radio" id="sterilized" name="sterilized">No
+        </div>
+        <label>Cuentame mas sobre:</label>
+        <textarea cols="30" rows="10"></textarea>
+        <label>Porque motivos quieres adoptar una mascota:</label>
+        <textarea cols="30" rows="10"></textarea>
+
+        <label for="have_pet">Nos daria permiso para supervisar el estado de su futura mascota:</label>
+        <div>
+            <input type="radio" id="have_pet" name="have_pet">Yes
+            <input type="radio" id="have_pet" name="have_pet">No
+        </div>
+
+        <label for="have_pet">Acepta los <a href="">Terminos y condiciones</a>:</label>
+        <div>
+            <input type="radio" id="have_pet" name="have_pet">Yes
+            <input type="radio" id="have_pet" name="have_pet">No
+        </div>
+        <button type="submit">
+            Send
+        </button>
+    </form>
+</body>
+</html>
